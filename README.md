@@ -2,13 +2,18 @@ Purpose:
     This project will test my basic HTML and CSS skills. I am to recreate the google.com page as best I can using the elements and styles that I find on the page itself. After finishing the project I will provide a link at the bottom of this file for anyone that is interested in taking a look. Finally, I intend to add a small self-reflection about how I feel the project went. Topics may include what I did well, areas I can improve upon, what would I do differently next time, etc.
 
 
-Current Version: 2.0
+Current Version: 2.1
 
-Version 2.0 is a complete rebuild of the project. I have added 2 new files: index1.html and mystyle.css which were created using a very basic template found here: https://www.w3schools.com/css/css_templates.asp
+Version 2.1: 
+I have successfully added the "google apps" launcher icon to the nav bar. It isn't perfect but I may come back to it in a future version.
+This version has also seen the addition of the "search" icon that is to be embedded on the left-side of the search bar. For now it is currently floating to the side but I will solve that problem soon enough.
+
+Version 2.0:
+A complete rebuild of the project. I have added 2 new files: index1.html and mystyle.css which were created using a very basic template found here: https://www.w3schools.com/css/css_templates.asp
 
 This rebuild has allowed me to create a more coherent layout scheme which has drastically sped up the design process.
  
-Future Version: The next version will have me focusing on implementing the google apps icon located in the nav bar of the original. Besides this, I will attempt to add the magnifying glass and microphone icons into the search bar. 
+Future Version: Fin attempt to add the magnifying glass and microphone icons into the search bar. 
 Following these additions, I feel that I will have completed the project to the best of my abilities.
 Any subsequent versions will contain bug fixes or small changes to the styling of elements.
  
