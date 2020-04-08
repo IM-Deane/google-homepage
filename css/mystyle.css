@@ -1,0 +1,149 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style body properties */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  font-size: 13px;
+  opacity: 0.75;
+  text-align: center;
+  padding: 14px 12px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+/* Style the right section of nav bar */
+.rightnav {
+    float: right;
+    padding-right: 30px;
+}
+
+/* Style the google profile link */
+#profile {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(top, #4387fd, #417fe9);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 1px;
+    margin: 5px;
+}
+
+/* Underline links when cursor hovers */
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/* Style content box */
+.content {
+  margin-top: 89px;
+  padding: 10px;
+  height: 233px; 
+  display: block;
+  text-align: center;
+}
+
+/* Style div that holds the 2 buttons */
+.containerbtns {
+    padding-top: 18px;
+    top: 53px;
+    height: 70px;
+}
+
+/* Style the two buttons */
+.main-button {
+    background-color: #f2f2f2d5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5, #f1f1f1);
+    color: #5f6368;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding-right: 20px;
+}
+
+/* Style the hover effect on buttons */ 
+.main-button:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+    color: #222222;
+}
+
+/* Style the searchbar */
+.searchbar {
+    border: 1px solid #dfe1e5;
+    width: 484px;
+    padding-top: 6px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Style the searchbar hover effect */
+.searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+/* Style the footer */
+.footer {
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  padding-left: 27px;
+  line-height: 40px;
+  position: fixed;
+  height: 40px;
+  background-color: #f2f2f2f2;
+  width: 100%;
+}
+
+/* Style the footer links */
+.footer a {
+    float: left;
+    display: block;
+    color: #000;
+    font-size: 14px;
+    opacity: 0.75;
+    text-align: center;
+    padding-right: 27px;
+    text-decoration: none;
+  }
+
+  /* Style the hover on footer links */
+  .footer a:hover {
+      text-decoration: underline;
+  }
+
+  /* Style the right section of footer */
+  .rightfoot {
+      float: right;
+  }
+
