@@ -15,6 +15,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
+  padding-top: 15px;
 }
 
 /* Style the topnav links */
@@ -34,6 +35,21 @@ body {
 .rightnav {
     float: right;
     padding-right: 30px;
+}
+
+/* Style the google apps icon */
+#apps {
+  background-image: url("/home/tristan/the_odin_project/google-homepage/images/google-app-launcher.png");
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  opacity: 0.55;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+
 }
 
 /* Style the google profile link */
@@ -97,6 +113,14 @@ body {
     color: #222222;
 }
 
+/* Style the search-box */
+.search-box {
+  display: inline-block;
+  fill: currentColor;
+  margin: auto;
+
+}
+
 /* Style the searchbar */
 .searchbar {
     border: 1px solid #dfe1e5;
@@ -111,6 +135,15 @@ body {
 .searchbar:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
+}
+/* Style the search magnifying glass*/
+#search-icon {
+  color: #9AA0A6;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  right: 20px;
 }
 
 /* Style the footer */
