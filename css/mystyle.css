@@ -16,6 +16,7 @@ body {
 .topnav {
   overflow: hidden;
   padding-top: 15px;
+
 }
 
 /* Style the topnav links */
@@ -35,6 +36,7 @@ body {
 .rightnav {
     float: right;
     padding-right: 30px;
+    position: relative;
 }
 
 /* Style the google apps icon */
@@ -44,7 +46,8 @@ body {
   background-position: -132px -38px;
   opacity: 0.55;
   display: inline-block;
-  vertical-align: middle;
+  position: relative;
+  top: 5px;
   border-radius: 2px;
   box-sizing: border-box;
   height: 30px;
@@ -82,6 +85,7 @@ body {
 
 /* Style div that holds the 2 buttons */
 .containerbtns {
+    display: block;
     padding-top: 18px;
     top: 53px;
     height: 70px;
@@ -115,9 +119,11 @@ body {
 
 /* Style the search-box */
 .search-box {
-  display: inline-block;
-  fill: currentColor;
-  margin: auto;
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 52px;
+    width: 900px;
 
 }
 
@@ -125,10 +131,14 @@ body {
 .searchbar {
     border: 1px solid #dfe1e5;
     width: 484px;
+    height: 34px;
     padding-top: 6px;
     position: relative;
-    margin: 0 auto;
-    border-radius: 8px;
+    top: 8px;
+    right: 5px;
+    border-radius: 15px;
+    z-index: 0;
+    
 }
 
 /* Style the searchbar hover effect */
@@ -136,14 +146,25 @@ body {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
-/* Style the search magnifying glass*/
+
+/* Style the search icon's box (NOT ICON ITSELF) */
+.icon-box {
+  display: inline-block;
+  fill: currentColor;
+  position: relative;
+  bottom: 10px;
+  left: 13px;
+  z-index: 1;
+}
+
+/* Style the search icon*/
 #search-icon {
   color: #9AA0A6;
   display: inline-block;
+  position: absolute;
   height: 20px;
   width: 20px;
   margin-top: 3px;
-  right: 20px;
 }
 
 /* Style the footer */
