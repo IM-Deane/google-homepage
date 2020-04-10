@@ -17,7 +17,7 @@ Overall, this project gave me a better understanding as to how a front-end devel
 For the next project, I'll be sure to setup a solid design before proceeding to the next phase.
 Measure twice and cut once.
 
-You can take a look at my google-homepage project here:
+You can take a look at my google-homepage project here: https://github.com/IM-Deane/google-homepage
 
 
 Current Version: 2.3.1
