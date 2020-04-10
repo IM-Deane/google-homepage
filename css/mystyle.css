@@ -122,49 +122,78 @@ body {
     display: block;
     position: relative;
     margin: auto;
+    padding-top: 10px;
     height: 52px;
     width: 900px;
 
 }
 
+/* Style the searchbar-in */
+.searchbar-shell {
+  border: 1px solid #dfe1e5;
+  width: 482px;
+  height: 40px;
+  display: flex;
+  flex: 1 1 0%;
+  margin: 0 auto;
+  padding-top: 6px;
+  border-radius: 24px;
+  
+} 
+
 /* Style the searchbar */
 .searchbar {
-    border: 1px solid #dfe1e5;
-    width: 484px;
-    height: 34px;
-    padding-top: 6px;
-    position: relative;
-    top: 8px;
-    right: 5px;
-    border-radius: 15px;
-    z-index: 0;
+    background-color: transparent;
+    border: none;
+    flex: 1 1 100%;
+    flex-shrink: 1;
+    height: 30px;
+    line-height: 34px;
+    flex-wrap: nowrap;
+    outline: none;
+    word-wrap: break-word;
+    padding-bottom: 5px;
     
 }
 
 /* Style the searchbar hover effect */
-.searchbar:hover {
+.searchbar-shell:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
 
 /* Style the search icon's box (NOT ICON ITSELF) */
 .icon-box {
-  display: inline-block;
+  flex: initial;
   fill: currentColor;
   position: relative;
-  bottom: 10px;
-  left: 13px;
-  z-index: 1;
+  align-items: center;
+  padding-right: 10px;
+  margin-left: 10px;
 }
 
 /* Style the search icon*/
 #search-icon {
   color: #9AA0A6;
-  display: inline-block;
-  position: absolute;
+  display: block;
   height: 20px;
   width: 20px;
   margin-top: 3px;
+}
+
+.mic-box {
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+  margin: auto;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+
+.mic {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
 }
 
 /* Style the footer */
